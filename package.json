@@ -1,8 +1,12 @@
 {
-  "name": "create-ce-cli",
+  "name": "create-content-engine-cli",
   "version": "1.0.0",
+  "description": "A lightweight cli for content engine",
+  "keywords": ["content", "engine", "cli"],
+  "author": "Coreutility",
+  "license": "MIT",
   "bin": {
-    "create-ce-cli": "./bin/index.js"
+    "create-content-engine-cli": "./bin/index.js"
   },
   "type": "module",
   "scripts": {
