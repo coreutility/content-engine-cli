@@ -92,7 +92,7 @@ async function main() {
     }
     console.log(`\n⏳ Downloading template…`);
     const zipFile = path.join(process.cwd(), "repo.zip");
-    const extractDir = path.join(process.cwd(), "__extract__");
+    const extractDir = path.join(process.cwd(), ".__extract_ce_cli__");
     await downloadZip(zipFile);
     await decompress(zipFile, extractDir);
     // detect extracted folder
